@@ -20,7 +20,7 @@ else:  # pragma: no cover
 import hid_parser.data
 
 
-__version__ = '0.0.3'
+__version__ = '0.0.4'
 
 
 class HIDWarning(Warning):
