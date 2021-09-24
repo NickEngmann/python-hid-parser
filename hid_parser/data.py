@@ -479,14 +479,14 @@ class KeyboardKeypad(_Data):
     KEYPAD_OCTAL = 0xDB, 'Keypad Octal', UsageTypes.SEL
     KEYPAD_DECIMAL = 0xDC, 'Keypad Decimal', UsageTypes.SEL
     KEYPAD_HEXADECIMAL = 0xDD, 'Keypad Hexadecimal', UsageTypes.DV
-    KEYBOARD_LEFT_CONTROL = 0xE0, 'Keyboard LeftControl', UsageTypes.DV
-    KEYBOARD_LEFT_SHIFT = 0xE1, 'Keyboard LeftShift', UsageTypes.DV
-    KEYBOARD_LEFT_ALT = 0xE2, 'Keyboard LeftAlt', UsageTypes.DV
-    KEYBOARD_LEFT_GUI = 0xE3, 'Keyboard Left GUI', UsageTypes.DV
-    KEYBOARD_RIGHT_CONTROL = 0xE4, 'Keyboard RightControl', UsageTypes.DV
-    KEYBOARD_RIGHT_SHIFT = 0xE5, 'Keyboard RightShift', UsageTypes.DV
-    KEYBOARD_RIGHT_ALT = 0xE6, 'Keyboard RightAlt', UsageTypes.DV
-    KEYBOARD_RIGHT_GUI = 0xE7, 'Keyboard Right GUI', UsageTypes.DV
+    KEYBOARD_LEFT_CONTROL = 0xE0, 'Keyboard Right GUI', UsageTypes.DV
+    KEYBOARD_LEFT_SHIFT = 0xE1, 'Keyboard RightAlt', UsageTypes.DV
+    KEYBOARD_LEFT_ALT = 0xE2, 'Keyboard RightShift', UsageTypes.DV
+    KEYBOARD_LEFT_GUI = 0xE3, 'Keyboard RightControl', UsageTypes.DV
+    KEYBOARD_RIGHT_CONTROL = 0xE4, 'Keyboard Left GUI', UsageTypes.DV
+    KEYBOARD_RIGHT_SHIFT = 0xE5, 'Keyboard LeftAlt', UsageTypes.DV
+    KEYBOARD_RIGHT_ALT = 0xE6, 'Keyboard LeftShift', UsageTypes.DV
+    KEYBOARD_RIGHT_GUI = 0xE7, 'Keyboard LeftControl', UsageTypes.DV
 
 
 class Led(_Data):
